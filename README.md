@@ -10,4 +10,6 @@ Goal: Predict whether a given blight ticket will be paid on time
 
 # Approach
 
-RandomForestRegression model was used in predicting the probability of compliance to be in class 0: non-compliant or 1: compliant. Four numerical predictors fine_amount, discount_amount, judgment_amount, and late_fee were considered. All non-US data and NULL compliance data were ignored in modeling. Model accuracy was evaluated with Area Under ROC (AUC), which was found to be 75.62%.
+RandomForestClassifier model was used in predicting the probability of compliance to be in class 0: non-compliant or 1: compliant. Four numerical predictors fine_amount, discount_amount, judgment_amount, and late_fee were considered. All non-US data and NULL compliance data were ignored in modeling. Model accuracy was evaluated with Area Under ROC (AUC), which was found to be 75.62%.
+
+https://mwickram.github.io/Detroit-Blight-Ticket-Compliance/blight-model.html
